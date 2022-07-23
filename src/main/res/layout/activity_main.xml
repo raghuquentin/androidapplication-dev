@@ -11,23 +11,23 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/weightContainer"
-        android:layout_width="385dp"
-        android:layout_height="152dp"
+        android:layout_width="368dp"
+        android:layout_height="112dp"
         android:background="@color/design_default_color_background"
         app:cardCornerRadius="30dp"
         app:cardElevation="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintHorizontal_bias="0.372"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.132">
+        app:layout_constraintVertical_bias="0.095">
 
         <TextView
             android:id="@+id/wcTextView"
             android:layout_width="121dp"
             android:layout_height="33dp"
-            android:text="KG"
+            android:text="Weight"
             android:textAlignment="gravity"
             android:textColor="#0E1113"
             android:textSize="24sp"
@@ -40,5 +40,33 @@
             app:layout_constraintVertical_bias="0.025"
             tools:layout_conversion_absoluteHeight="19dp"
             tools:layout_conversion_absoluteWidth="58dp" />
+
+        <EditText
+            android:id="@+id/wckgtext"
+            android:layout_width="131dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="enter kg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.008"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.75" />
+
+        <TextView
+            android:id="@+id/wckgtextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KG"
+            android:textColor="#0B0606"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.401"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.827" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
